@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV page</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="header">
+        <img src="web_img.jpg"
+        alt="my photo"
+         class="header__photo">
+         <h1 class="header__title">Dmitry Loskuceravyi CV</h1>
+         <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+    <main>
+        <section class="skills">
+            <h3 class="">Skills</h3>
+            <details>
+                <summary>Skills list</summary>
+                    <ol>
+                        <li>1. HTML</li>
+                        <li>2. CSS</li>
+                        <li>3. JS</li>
+                        <li>4. React</li>
+                        <li>5. TypeScript</li>
+                    </ol>
+            </details>
+        </section>
+        <article class="article">
+            <h4>Short article about me</h4>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt dicta eius rerum, velit maiores laudantium dolore, atque quos itaque distinctio veritatis mollitia delectus quam ab deleniti inventore quod dignissimos quas, ratione nisi! Libero dolorem nulla, in repellat nobis ex, eveniet odit voluptas facere maiores officiis perspiciatis, illum commodi cumque?
+            </p>
+        </article>
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+        <hr class="separator">
+
+        <section class="video">
+            <h3>Video</h3>
+            <iframe  src="https://www.youtube.com/embed/sECs4qsbEQk?list=PLV9lBwGQ2FU0_w1Ch79wdhcCylBUdqPt7" title="Frontender[1.0] - Модуль 1 | Курс по FRONTEND | HTML, CSS, SCSS, GIT, NPM, SEO, A11Y | УРОКИ [2-55]" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section class="hobbies">
+            <h4>My hobbies:</h4>
+            <details>
+                <summary>hobbies</summary>
+                    <ol>
+                        <li>Skiing</li>
+                        <li>Box</li>
+                        <li>Audio books</li>
+                    </ol>
+            </details>
+        </section>
+        <hr class="separator">
+
+        <section class="ed">
+             <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic School</td>
+                        <td>Standart</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>ZTU</td>
+                        <td>Web Dev</td>
+                        <td>In time</td>
+                    </tr>
+                </tbody>
+             </table>
+           
+        </section>
+        <section class="quote">
+            <blockquote>
+                Делай то, что можешь, с тем, что имеешь, там, где ты есть.
+            </blockquote>
+        </section>
+        <section class="interaction">
+            <form 
+            action="https://google.com"
+            method="get"
+            class="form"
+            target="_blank">
+                <fieldset>
+                    <legend>Required filds</legend>
+
+                        <label for="firstname__id">First Name:</label>
+                        <input type="text" name="firstname" id="firstname__id" required class="form__controll" placeholder="Enter your first name">
+
+                        <label for="lastname__id">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname__id" required class="form__controll" placeholder="Enter your last name">
+                        
+
+
+                        <label for="email__id">Email:</label>
+                        <input type="email" name="email" id="email__id" required class="form__controll" placeholder="Enter your email">
+                </fieldset>
+                    <br>
+                <textarea name="texterea" id="textarea__id" cols="30" rows="7" class="form__text" placeholder="Type something"></textarea>
+
+                <button type="submit" class="form__submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <address>
+            <a href="mailto:vt241_ldv@student.ztu.edu.ua" class="c__link">vt241_ldv@student.ztu.edu.ua</a>
+            <br>
+            <a href="tel:+380964575876" class="c__link">+380964575876</a>
+        </address>
+    </footer>
+
+</body>
+</html>
